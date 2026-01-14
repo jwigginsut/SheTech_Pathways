@@ -715,12 +715,21 @@ p{margin:0 0 12px}
   align-items:center;
   gap:12px;
 }
-.footer-mark{width:34px; height:34px; object-fit:contain}
+.footer-mark{
+  width:56px;
+  height:56px;
+  object-fit:contain;
+  flex-shrink:0;
+}
 .footer-title{margin:0; font-weight:900}
 .footer-right{display:flex; align-items:center; gap:10px; color: var(--muted)}
 .footer-right a{color: var(--muted); text-decoration:none}
 .footer-right a:hover{color: var(--text)}
 .sep{opacity:.6}
+
+@media (max-width: 560px){
+  .footer-mark{width:44px; height:44px}
+}
 
 /* Career pages */
 .page{
@@ -1018,3 +1027,4 @@ p{margin:0 0 12px}
   .poster-bottom{grid-template-columns: 1fr}
   .poster-logo{justify-self:start}
 }
+
