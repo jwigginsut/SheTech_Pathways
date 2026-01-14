@@ -200,7 +200,7 @@ function renderCareersGrid() {
         <button class="poster-copy" type="button" data-copy-link data-path="${escapeHtml(qrPath)}">Copy link</button>
       </div>
     </div>
-    <img class="poster-logo" src="./Design/shetech%20logo%20fuchsia%20(1).png" alt="SheTech" loading="lazy" />
+    <img class="poster-logo" src="./assets/shetech_logo_fuchsia.png" alt="SheTech" loading="lazy" />
   </div>
 </article>`;
     })

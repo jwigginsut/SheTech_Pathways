@@ -25,7 +25,7 @@ body{
   margin:0;
   color:var(--text);
   background:
-    url("./Design/SheTech elements/royal-background.png") center top / cover no-repeat,
+    url("./assets/royal-background.png") center top / cover no-repeat,
     radial-gradient(1000px 700px at 15% 10%, rgba(0,166,206,.20), transparent 60%),
     radial-gradient(900px 700px at 85% 20%, rgba(189,28,129,.18), transparent 60%),
     radial-gradient(900px 700px at 50% 90%, rgba(1,1,147,.20), transparent 55%),
@@ -43,10 +43,10 @@ body::before{
   z-index:-1;
   opacity:.55;
   background-image:
-    url("./Design/SheTech elements/teal-sparkles.png"),
-    url("./Design/SheTech elements/royal-sparkles.png"),
-    url("./Design/SheTech elements/plus signs.svg"),
-    url("./Design/SheTech elements/blue dots 2.svg");
+    url("./assets/teal-sparkles.png"),
+    url("./assets/royal-sparkles.png"),
+    url("./assets/plus_signs.svg"),
+    url("./assets/blue_dots_2.svg");
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 480px auto, 520px auto, 520px auto, 520px auto;
   background-position:
@@ -410,7 +410,7 @@ p{margin:0 0 12px}
   border: 1px solid rgba(255,255,255,.14);
   box-shadow: var(--shadow);
   background:
-    url("./Design/SheTech elements/background 3.png") center / cover no-repeat,
+    url("./assets/background_3.png") center / cover no-repeat,
     linear-gradient(180deg, rgba(1,1,147,.78), rgba(6,6,26,.62));
 }
 .poster-head{
@@ -488,13 +488,13 @@ p{margin:0 0 12px}
   text-transform: uppercase;
   text-align:center;
   background:
-    url("./Design/SheTech elements/tag background.svg") center / cover no-repeat,
+    url("./assets/tag_background.svg") center / cover no-repeat,
     linear-gradient(135deg, rgba(0,166,206,.95), rgba(1,1,147,.75));
   border-bottom: 1px solid rgba(255,255,255,.12);
 }
 .poster-col:nth-child(3) .poster-col-head{
   background:
-    url("./Design/SheTech elements/tag background.svg") center / cover no-repeat,
+    url("./assets/tag_background.svg") center / cover no-repeat,
     linear-gradient(135deg, rgba(0,166,206,.70), rgba(189,28,129,.82));
 }
 .poster-list{
@@ -983,7 +983,7 @@ p{margin:0 0 12px}
   border-radius: var(--radius);
   border: 1px solid rgba(255,255,255,.12);
   background:
-    url("./Design/SheTech elements/background 5.png") center / cover no-repeat,
+    url("./assets/background_5.png") center / cover no-repeat,
     rgba(255,255,255,.04);
   display:flex;
   flex-direction:column;
