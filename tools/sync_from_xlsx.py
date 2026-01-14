@@ -113,7 +113,7 @@ PAGE_TMPL = """<!doctype html>
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="../index.html" aria-label="Back to landing page">
-          <img class="brand-mark" src="../Design/shetech%20logo%20white.png" alt="SheTech logo" />
+          <img class="brand-mark" src="../assets/shetech_logo_white.png" alt="SheTech logo" />
           <span class="brand-text">Pathways</span>
         </a>
         <nav class="nav" aria-label="Primary">
@@ -165,7 +165,7 @@ PAGE_TMPL = """<!doctype html>
     <footer class="site-footer">
       <div class="container footer-inner">
         <div class="footer-left">
-          <img class="footer-mark" src="../Design/shetech%20logo%20teal.png" alt="SheTech logo" loading="lazy" />
+          <img class="footer-mark" src="../assets/shetech_logo_teal.png" alt="SheTech logo" loading="lazy" />
           <div>
             <p class="footer-title">SheTech Pathways</p>
             <p class="muted small">Explore more careers on the landing page.</p>
@@ -260,4 +260,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
