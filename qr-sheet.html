@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SheTech Pathways — Printable QR Sheet</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta
+      name="description"
+      content="Print-ready QR codes for SheTech Pathways career pages."
+    />
+  </head>
+  <body>
+    <header class="site-header no-print">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="Back to landing page">
+          <img
+            class="brand-mark"
+            src="./Design/shetech%20logo%20white.png"
+            alt="SheTech logo"
+          />
+          <span class="brand-text">Pathways</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="./index.html#careers">Careers</a>
+          <a href="./index.html#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <div class="container">
+        <div class="page-header">
+          <p class="breadcrumbs">
+            <a href="./index.html">Home</a> <span aria-hidden="true">/</span> QR sheet
+          </p>
+          <h1 class="page-title">Printable QR sheet</h1>
+          <p class="page-subtitle">
+            Tip: set your public site URL on the landing page so these codes open the right pages
+            when scanned. Then print this page.
+          </p>
+        </div>
+
+        <section class="section">
+          <div id="qrSheetGrid" class="qr-sheet-grid" data-render-qr-sheet="true">
+            <!-- Rendered from SheTech_QR_Career_Map_Directory.xlsx via careers-data.js -->
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer no-print">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <img
+            class="footer-mark"
+            src="./Design/shetech%20logo%20teal.png"
+            alt="SheTech logo"
+            loading="lazy"
+          />
+          <div>
+            <p class="footer-title">SheTech Pathways</p>
+            <p class="muted small">Print, post, and share.</p>
+          </div>
+        </div>
+        <div class="footer-right">
+          <a href="./index.html">Back to landing page</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./careers-data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
+

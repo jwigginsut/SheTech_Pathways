@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="SheTech Pathways — explore STEM careers and the high school, college, and career pathways to each."
+    />
+    <title>SheTech Pathways — STEM Career Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./Design/shetech%20logo%20teal.png" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="SheTech Pathways home">
+          <img
+            class="brand-mark"
+            src="./Design/shetech%20logo%20white.png"
+            alt="SheTech logo"
+          />
+          <span class="brand-text">Pathways</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#careers">Careers</a>
+          <a href="#about">About SheTech</a>
+          <a href="#contact">Get Inspired</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="pill">
+              Women Tech Council · SheTech Explorer program
+            </p>
+            <h1>Where Passion Meets Purpose</h1>
+	    <h2>SheTech transforms curiosity into career possibilities</h2>
+	    <p class="lead">
+              Each career card opens a door into a STEM field, showing what the job is really like, the skills you’ll learn, and the women leading the way. Through hands-on experiences, industry mentors, and programs that grow with students over time, SheTech helps girls discover their interests, build confidence, and see how their passions can turn into real careers in technology.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#careers">Browse careers</a>
+              <a class="btn btn-ghost" href="./qr-sheet.html">Print QR sheet</a>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-hidden="true">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="hero-logo-wrap">
+              <img
+                class="hero-logo-img"
+                src="./Design/shetech%20logo%20fuchsia.png"
+                alt="SheTech"
+                loading="lazy"
+              />
+            </div>
+            <div class="hero-card hero-card--image">
+              <div class="hero-card-top">
+                <div class="dot dot-magenta"></div>
+                <div class="dot dot-cyan"></div>
+                <div class="dot dot-navy"></div>
+              </div>
+              <div class="hero-card-body">            
+                <img class="hero-cover" src="./SheTech_cover.jpg" alt="" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="careers" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Discover STEM careers and design your pathway</h2>
+            <p class="muted">
+              Choose a career to see a step-by-step pathway and resources. Each card includes a QR code you can print or share.
+            </p>
+          </div>
+
+          <div class="toolbar" role="region" aria-label="Career filters">
+            <div class="toolbar-left">
+              <label class="sr-only" for="careerSearch">Search careers</label>
+              <input
+                id="careerSearch"
+                class="input"
+                type="search"
+                placeholder="Search careers (e.g., data, cyber, engineer)…"
+                autocomplete="off"
+              />
+            </div>
+            <div class="toolbar-right">
+              <label class="sr-only" for="careerCategory">Category</label>
+              <select id="careerCategory" class="select">
+                <option value="all">All categories</option>
+                <option value="technology">Technology</option>
+                <option value="engineering">Engineering</option>
+                <option value="data">Data & AI</option>
+                <option value="design">Design</option>
+                <option value="science">Science</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="careerGrid" class="poster-grid" aria-live="polite" data-render-careers="true">
+            <!-- Rendered from SheTech_QR_Career_Map_Directory.xlsx via careers-data.js -->
+          </div>
+
+          <p id="noResults" class="no-results muted" hidden>
+            No careers match your search. Try a different keyword or category.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about">
+          <div>
+            <h2>About SheTech</h2>
+            <p>
+              SheTech is the Women Tech Council’s industry-led high school program designed to activate, engage, and inspire girls at the moment their future choices begin to take shape. As the first step in WTC’s talent pipeline, SheTech connects students to hands-on experiences, industry mentors, education pathways, and real-world opportunities that help them see where they belong in STEM—and how they can lead. Through a connected set of programs including SheTech Explorer Day, student leadership boards, internships, clubs, scholarships, and post-graduation opportunities, SheTech grows with girls from curiosity to confidence to career direction. With more than 40,000 girls activated, 1,000+ mentors engaged annually, and a growing economic impact driven by SheTech graduates entering the workforce, the program doesn’t just inspire interest in STEM—it builds identity, access, and momentum for the next generation of women shaping the future of technology.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container contact">
+          <div>
+            <h2>Get Inspired</h2>
+            <p class="muted">
+              The SheTech program is intended for high school girls. SheTech Explorer Day is a one-day experience designed to help you explore what’s possible—before you have to make big decisions. You’ll try hands-on workshops, meet women working in real tech careers, and see how your interests connect to the future of innovation. Go to the
+              <a href="https://shetechexplorer.com" target="_blank" rel="noopener noreferrer">SheTech Explorer page</a>.
+            </p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-actions">
+              <a
+                class="btn btn-primary"
+                href="https://shetechexplorer.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open SheTech Explorer
+              </a>
+              <a class="btn btn-ghost" href="#careers">Browse careers</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <img
+            class="footer-mark"
+            src="./Design/shetech%20logo%20teal.png"
+            alt="SheTech logo"
+            loading="lazy"
+          />
+          <div>
+            <p class="footer-title">SheTech Pathways</p>
+            <p class="muted small">Built for career exploration + QR sharing.</p>
+          </div>
+        </div>
+        <div class="footer-right">
+          <a href="#main">Back to top</a>
+          <span class="sep" aria-hidden="true">•</span>
+          <a href="./qr-sheet.html">QR sheet</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./careers-data.js"></script>
+    <script src="./doc-media.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
+

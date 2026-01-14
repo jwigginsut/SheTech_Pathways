@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_2" data-name="Layer 2" viewBox="0 0 1125.85 657.65" width="1125.8499755859375" height="657.6500244140625">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #152233;
+      }
+
+      .cls-3, .cls-2 {
+        opacity: .27;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        stroke: #152233;
+        stroke-miterlimit: 10;
+        stroke-width: 5.43px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="1125.85" height="657.65"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-4">
+      <circle class="cls-3" cx="184.78" cy="28.89" r="544.49"/>
+      <path class="cls-2" d="M680.6,331.85c-102.11,166.75-285.97,278-495.81,278-320.86,0-580.97-260.11-580.97-580.97S-136.08-552.08,184.78-552.08,765.75-291.97,765.75,28.89c0,23.45-1.39,46.58-4.09,69.31"/>
+      <path class="cls-2" d="M756.58,132.28c-5.5,30.64-13.41,60.44-23.51,89.2"/>
+    </g>
+  </g>
+</svg>

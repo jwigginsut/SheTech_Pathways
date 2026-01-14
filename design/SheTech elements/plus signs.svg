@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 134.27 130.64" width="134.27000427246094" height="130.63999938964844">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 4.44px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #6babff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 5.18px;
+      }
+
+      .cls-3 {
+        opacity: .7;
+      }
+
+      .cls-4 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-4">
+      <line class="cls-1" x1="2.22" y1="18.32" x2="34.41" y2="18.32"/>
+      <line class="cls-1" x1="18.32" y1="2.22" x2="18.32" y2="34.41"/>
+    </g>
+    <g class="cls-3">
+      <line class="cls-2" x1="67.11" y1="95.77" x2="131.68" y2="95.77"/>
+      <line class="cls-2" x1="99.39" y1="63.48" x2="99.39" y2="128.05"/>
+    </g>
+  </g>
+</svg>
